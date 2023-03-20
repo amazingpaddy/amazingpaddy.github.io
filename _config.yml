@@ -48,9 +48,12 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Padmanabhan and I am an experienced IT professional with over <mark>10</mark> years of experience in application development using <mark>Java</mark> and <mark>BigData</mark> technologies. With 8 years of experience specifically in <mark>BigData</mark> technologies such as <mark>Hadoop, Apache Spark, Spark Structured Streaming, Kafka, Hive, and HBase</mark>, I am highly skilled in these areas. Additionally, I am certified in foundation level <mark>AWS</mark> and <mark>Azure</mark>, which allows me to leverage the power of cloud computing to deliver innovative solutions. In addition to my technical expertise, I have a strong background in <mark>Python programming</mark> and <mark>machine learning concepts</mark>. I am also well-versed in <mark>UNIX commands</mark> and <mark>shell scripting</mark>, and have excellent analytical, communication and monitoring skills. My ability to quickly learn new concepts and my hardworking, enthusiastic attitude make me a valuable asset to any team.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  - IT professional with <mark>12</mark> years of experience in developing applications using <mark>Java</mark>, <mark>Python</mark> and Big-Data technologies.
+  - Extensive expertise in working with <mark>Hadoop</mark>, <mark>Spark 3.x</mark>, <mark>Spark Structured Streaming</mark>, <mark>Kafka</mark>, <mark>Hive</mark> and <mark>HBase</mark>
+  - Strong knowledge of <mark>Python programming</mark> and <mark>Machine learning</mark> concepts
+  - Proficient in <mark>UNIX commands</mark> and <mark>shell scripting</mark>
+  - Excellent analytical, communication and monitoring skills
+  - Adaptable to different technologies and eager to learn new concepts quickly
 
 content:
   - title: Projects # Title for the section
