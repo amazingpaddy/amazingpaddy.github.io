@@ -78,8 +78,18 @@ content:
   - title: Technical Skills # Title for the section
     layout: text # Type of content section (list/text)
     content:  |
-      - **Programming Languages:** Java, Python
-      - **Big-Data Frameworks:** Apache Spark, Kafka, Hive 
+      - **Programming Languages:** Java, Python.
+      - **Java EE Frameworks:** Spring MVC, Spring Data, Spring Security.
+      - **Big-Data Frameworks:** Apache Spark, Kafka, Hive.
+      - **Database skills:** SQL, HBase, MongoDB.
+      - **Machine Learning:** Probability & Statistics, Linear Algebra, Pandas, numPy, EDA, KNN, Naive Byes.
+      - **Cloud:** AWS, Azure, GCP.
+      - **Automation Scripts:** Shell script, Batch Script, Powershell script, Selenium Python.
+      - **DevOps:** Docker, Kubernetes, Jenkins, Tekton pipelines.
+      - **Testing Frameworks:** JUnit 4, Cucumber.
+      - **Build Tools:** Maven, Gradle.
+      - **Version Control**: Git, GitHub, GitLab.
+      - **Other Productivity Tools:** IntelliJ idea, Eclipse, Putty, Notepad++.
 
   - title: Professional Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -188,7 +198,7 @@ content:
 #      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
