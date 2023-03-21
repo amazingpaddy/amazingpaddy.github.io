@@ -31,6 +31,9 @@ linkedin_username: amazingpaddy
 
 # Additional icon links
 additional_links:
+  - title: Download Resume
+    icon: far fa-file-pdf
+    url: https://amazingpaddy.github.io/resources/Padmanabhan_Vijendran_Resume.pdf
 #- title: itsgoingto.be
 #  icon: fas fa-globe
 #  url: https://www.itsgoingto.be
