@@ -48,10 +48,10 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  - IT professional with <mark>12</mark> years of experience in developing applications using <mark>Java</mark>, <mark>Python</mark> and Big-Data technologies.
-  - Extensive expertise in working with <mark>Hadoop</mark>, <mark>Spark 3.x</mark>, <mark>Spark Structured Streaming</mark>, <mark>Kafka</mark>, <mark>Hive</mark> and <mark>HBase</mark>
-  - Strong knowledge of <mark>Python programming</mark> and <mark>Machine learning</mark> concepts
-  - Proficient in <mark>UNIX commands</mark> and <mark>shell scripting</mark>
+  - IT professional with **12** years of experience in developing applications using **Java**, **Python** and **Big-Data technologies**.
+  - Extensive expertise in working with **Hadoop**, **Spark 3.x**, **Spark Structured Streaming**, **Kafka**, **Hive** and **HBase**
+  - Strong knowledge of **Python programming** and **Machine learning** concepts
+  - Proficient in **UNIX commands** and **shell scripting**
   - Excellent analytical, communication and monitoring skills
   - Adaptable to different technologies and eager to learn new concepts quickly
 
@@ -109,12 +109,12 @@ content:
           We are migrating the ETL framework from Sqoop and Hive to Apache Spark Structured Streaming so that engineers can access near real-time reports.
           
           **Roles and Responsibilities**:
-          - Migrated ETL framework from Sqoop/Hive to Apache Spark Structured Streaming for Ford Engineering.
-          - Developed Spark Structured Streaming application using pyspark that reduced data processing time by 50% and increased report accuracy by 20%.
-          - Implemented ETL pipelines using Apache Spark, Kafka and MongoDB that enabled engineers to utilize near real-time reports for designing future cars at low manufacturing cost.
-          - Designed and developed Java application to efficiently fetch data from LDAP servers.
-          - Refactored Java applications to improve readability and performance.
-          - Explored new technologies using POCs and documented the approaches to implement new project requirements.
+          - Migrated **ETL** framework from **Sqoop/Hive** to **Apache Spark Structured Streaming** for Ford Engineering.
+          - Developed **Spark Structured Streaming** application using **pyspark** that reduced data processing time by 50% and increased report accuracy by 20%.
+          - Implemented ETL pipelines using **Apache Spark**, **Kafka** and **MongoDB** that enabled engineers to utilize near real-time reports for designing future cars at low manufacturing cost.
+          - Designed and developed **Java** application to efficiently fetch data from LDAP servers.
+          - Refactored **Java** applications to improve readability and performance.
+          - Explored new technologies using **POCs** and documented the approaches to implement new project requirements.
       - layout: left
         title: Credit Agricole CIB
         link: https://www.ca-cib.com/
@@ -127,14 +127,14 @@ content:
           **Project Details**: CMT (Cash Management Transactions): Implemented an internal payment engine that handled incoming and outgoing transactions efficiently using Java 8, Spark structured streaming, Kafka, HBase and ELK stack. Delivered the project following Agile methodology.
           
           **Roles and Responsibilities**:
-          - Implemented an internal payment engine using Java 8 and Spark structured streaming that processed over 1 million transactions per day.
-          - Developed an integration layer using Spark structured streaming and Java 8 that enabled seamless communication between the payment engine and other applications.          
-          - Designed and built a data pipeline using Kafka, HBase and Spark that ingested, stored and analyzed transaction data in real-time.
-          - Created Python scripts to automate demo tool and performance report generation, reducing manual effort by 50%.
-          - Created custom source and sink connectors for IBM MQ using Spark structured streaming that improved data reliability and throughput.
-          - Developed Jenkins pipelines using groovy and shell scripting that facilitated continuous integration and delivery of code changes.
-          - Automated functional testing using Cucumber framework that ensured high-quality code delivery.
-          - Set up application logs using ELK stack and created dashboards for monitoring performance metrics.
+          - Implemented an internal payment engine using **Java-8** and **Spark structured streaming** that processed over 1 million transactions per day.
+          - Developed an integration layer using **Spark structured streaming** and **Java-8** that enabled seamless communication between the payment engine and other applications.          
+          - Designed and built a data pipeline using **Kafka**, **HBase** and **Spark** that ingested, stored and analyzed transaction data in real-time.
+          - Created **Python** scripts to automate demo tool and performance report generation, reducing manual effort by 50%.
+          - Created custom source and sink connectors for **IBM MQ** using **Spark structured streaming** that improved data reliability and throughput.
+          - Developed **Jenkins pipelines** using **groovy** and **shell scripting** that facilitated continuous integration and delivery of code changes.
+          - Automated functional testing using **Cucumber framework** that ensured high-quality code delivery.
+          - Set up application logs using **ELK stack** and created dashboards for monitoring performance metrics.
       - layout: left
         title: Cognizant Technology Solutions
         link: https://www.cognizant.com
@@ -150,10 +150,10 @@ content:
           We implemented ETL using BigData tools such as Apache Spark 2.3, Hive, Sqoop and Oozie. 
           
           **Roles and Responsibilities**:
-          - Extracted data from various Oracle databases to HDFS and Hive using Sqoop scripts.
-          - Transformed data to the required schema using Hive scripts.
-          - Developed Java application to generate Excel reports from Hive table data using Apache POI.
-          - Explored ETL with Alteryx, Apache Spark using POCs.
+          - Extracted data from various Oracle databases to **HDFS** and **Hive** using **Sqoop** scripts.
+          - Transformed data to the required schema using **Hive** scripts.
+          - Developed **Java** application to generate Excel reports from **Hive** table data using **Apache POI**.
+          - Explored **ETL** with **Alteryx**, **Apache Spark** using POCs.
       - layout: left
         title: Tata Consultancy Services
         link: https://www.tcs.com
@@ -168,11 +168,11 @@ content:
           **Project Details**: I worked on the project that processed product images and details for Target website using ETL Java application and SQL scripts. 
           
           **Roles and Responsibilities**:
-          - Developed ETL Java application to process product information using Map-Reduce
-          - Wrote SQL scripts to transform product related data
-          - Automated manual tasks using Python
-          - Investigated and analyzed application support incidents through to root cause and fix
-          - Proactively monitored services and responded to alerts raised by customers and monitoring systems, ensuring the availability and performance of the Teamsite Content Management Systems
+          - Developed **ETL** **Java** application to process product information using Map-Reduce
+          - Wrote **SQL** queries to transform product related data
+          - Automated manual tasks using **Python**
+          - Investigated and analyzed **application support** incidents through to root cause and fix
+          - Proactively monitored services and responded to alerts raised by customers and monitoring systems, ensuring the availability and performance of the **Teamsite** Content Management Systems
   - title: Certifications # Title for the section
     layout: text # Type of content section (list/text)
     content: |
