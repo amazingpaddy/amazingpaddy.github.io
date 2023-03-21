@@ -173,6 +173,11 @@ content:
           - Automated manual tasks using Python
           - Investigated and analyzed application support incidents through to root cause and fix
           - Proactively monitored services and responded to alerts raised by customers and monitoring systems, ensuring the availability and performance of the Teamsite Content Management Systems
+  - title: Certifications # Title for the section
+    layout: text # Type of content section (list/text)
+    content: |
+      - [AWS Certified Cloud Practitioner](https://www.credly.com/badges/2cb6d504-93e8-4337-b3c9-b541ed5c4558/public_url)
+      - [Microsoft Certified: Azure AI Fundamentals](https://www.credly.com/badges/5a2e8022-8d77-42e8-ab81-718a03b6d396)
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
