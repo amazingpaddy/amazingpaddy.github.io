@@ -52,6 +52,7 @@ additional_links:
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   - IT professional with **12** years of experience in developing applications using **Java**, **Python** and **Big-Data technologies**.
+  - **Google Cloud Certified Professional Data Engineer**.
   - Extensive expertise in working with **Hadoop**, **Spark 3.x**, **Spark Structured Streaming**, **Kafka**, **Hive** and **HBase**
   - Strong knowledge of **Python programming** and **Machine learning** concepts
   - Proficient in **UNIX commands** and **shell scripting**
@@ -179,6 +180,7 @@ content:
   - title: Certifications # Title for the section
     layout: text # Type of content section (list/text)
     content: |
+      - [Google Cloud Certified - Professional Data Engineer](https://www.credential.net/f1604fa8-370f-4e3e-acb0-20c6463ebc2c?key=f0e7a8bac1e57fb111633b61a4194c4b70fa9cf7e88e396472716a2a388d68bd)
       - [AWS Certified Cloud Practitioner](https://www.credly.com/badges/2cb6d504-93e8-4337-b3c9-b541ed5c4558/public_url)
       - [Microsoft Certified: Azure AI Fundamentals](https://www.credly.com/badges/5a2e8022-8d77-42e8-ab81-718a03b6d396)
   - title: Education # Title for the section
