@@ -99,11 +99,32 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: Royal Bank of Canada
+        link: https://www.rbc.com/about-rbc.html
+        # link_text: boringcompany.com
+        sub_title: Lead Data Engineer
+        caption: June 2023 - Present
+        quote: >
+          RBC is a global financial institution with a purpose-driven, principles-led approach to delivering leading performance, and creating value for our clients and communities.
+        description: | # this will include new lines to allow paragraphs
+          
+          **Project Details**: As the lead developer, I spearheaded the design and development of RBC's End-of-Day Contract (EODc) Compliance Checker tool, leveraging Java 11. This tool serves various business sectors within RBC, including Retail and Capital Markets. The Compliance Checker automates the validation of daily contract reports, ensuring they meet both industry and internal standards. It flags any discrepancies, providing a robust solution for quality assurance and regulatory compliance across multiple lines of business.
+          
+          **Roles and Responsibilities**:
+          - **Designed and Developed** the EODc Compliance Checker, a **Java-based** application that automates the validation of complex daily contract reports across multiple business lines.
+          - **RESTful Web Services:** Leveraged **Apache Spring** to implement **REST services** that trigger the EODc report validation process, enhancing the tool's scalability and user interaction.
+          - **Agile Collaboration:** Actively participated in **Agile** sprints, collaborated with Business Analysts to translate business needs into technical requirements, and ensured timely delivery of high-quality product.
+          - **Quality Assurance:** Fixed bugs expediently while handling enhancement requests, ensuring optimal application performance and client satisfaction.
+          - **High-Performance Computing:** Employed **multi-threading** techniques to process voluminous EODc data packages exceeding 200GB, featuring millions of lines in each file.
+          - **Code Quality & Testing:** Implemented unit tests with an achievement of over 90% coverage, integrated **Sonar Lint** for code quality checks, and eliminated code smells.
+          - **Regression Testing:** Developed functional test cases utilizing the **Cucumber Framework** to prevent regressions and ensure application stability across releases.
+          - **DevOps Integration:** Optimized **Git** workflows and **CI/CD pipelines**, significantly accelerating the release process and increasing operational efficiency.
+      - layout: left
         title: Cognizant Technology Solutions
         link: https://www.cognizant.com/ca/en
         # link_text: boringcompany.com
         sub_title: Senior Big-Data Developer
-        caption: August 2021 - Present
+        caption: August 2021 - June 2023
         quote: >
           Cognizant is an American multinational information technology services and consulting company. It is headquartered in Teaneck, New Jersey, United States.
         description: | # this will include new lines to allow paragraphs
