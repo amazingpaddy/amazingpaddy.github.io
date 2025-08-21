@@ -80,20 +80,20 @@ content:
 #          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
   - title: Technical Skills # Title for the section
-  layout: text # Type of content section (list/text)
-  content: |
-    - **Programming Languages:** Java 17, Python 3
-    - **BigData Tools:** Apache Spark, Kafka, Hive, Hadoop
-    - **Machine Learning:**
-      - Algorithms: XGBoost, RandomForest, Logistic Regression, SVM
-      - ML Python libraries: pandas, numpy, scikit-learn
-    - **Automation Scripts:** Shell, Batch, Powershell, Selinium
-    - **Testing Frameworks:** Junit, Cucumber
-    - **JAVA EE Frameworks:** Spring Framework 6 (Core, Dependency Injection, Spring Data JPA, Spring Security), Jakarta EE (CDI, Faces, Weld), PrimeFaces (UI development)
-    - **Databases:** MySQL, MongoDB, HBase
-    - **Cloud:** AWS, Azure, GCP
-    - **DevOps:** Docker, Jenkins, Github Actions
-    - **Other Tools:** Intellij, Eclipse, Git, Gitlab, Putty, ServiceNow, Rally.
+    layout: text # Type of content section (list/text)
+    content: |
+      - **Programming Languages:** Java 17, Python 3
+      - **BigData Tools:** Apache Spark, Kafka, Hive, Hadoop
+      - **Machine Learning:**
+        - Algorithms: XGBoost, RandomForest, Logistic Regression, SVM
+        - ML Python libraries: pandas, numpy, scikit-learn
+      - **Automation Scripts:** Shell, Batch, Powershell, Selinium
+      - **Testing Frameworks:** Junit, Cucumber
+      - **JAVA EE Frameworks:** Spring Framework 6 (Core, Dependency Injection, Spring Data JPA, Spring Security), Jakarta EE (CDI, Faces, Weld), PrimeFaces (UI development)
+      - **Databases:** MySQL, MongoDB, HBase
+      - **Cloud:** AWS, Azure, GCP
+      - **DevOps:** Docker, Jenkins, Github Actions
+      - **Other Tools:** Intellij, Eclipse, Git, Gitlab, Putty, ServiceNow, Rally.
 
   - title: Professional Experience # Title for the section
     layout: list # Type of content section (list/text)
