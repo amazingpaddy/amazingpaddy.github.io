@@ -80,20 +80,20 @@ content:
 #          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
   - title: Technical Skills # Title for the section
-    layout: text # Type of content section (list/text)
-    content:  |
-      - **Programming Languages:** Java, Python.
-      - **Java EE Frameworks:** Spring MVC, Spring Data, Spring Security.
-      - **Big-Data Frameworks:** Apache Spark, Kafka, Hive.
-      - **Database skills:** SQL, HBase, MongoDB.
-      - **Machine Learning:** Probability & Statistics, Linear Algebra, Pandas, numPy, EDA, KNN, Naive Byes.
-      - **Cloud:** AWS, Azure, GCP.
-      - **Automation Scripts:** Shell script, Batch Script, Powershell script, Selenium Python.
-      - **DevOps:** Docker, Kubernetes, Jenkins, Tekton pipelines.
-      - **Testing Frameworks:** JUnit 4, Cucumber.
-      - **Build Tools:** Maven, Gradle.
-      - **Version Control**: Git, GitHub, GitLab.
-      - **Other Productivity Tools:** IntelliJ idea, Eclipse, Putty, Notepad++.
+  layout: text # Type of content section (list/text)
+  content: |
+    - **Programming Languages:** Java 17, Python 3
+    - **BigData Tools:** Apache Spark, Kafka, Hive, Hadoop
+    - **Machine Learning:**
+      - Algorithms: XGBoost, RandomForest, Logistic Regression, SVM
+      - ML Python libraries: pandas, numpy, scikit-learn
+    - **Automation Scripts:** Shell, Batch, Powershell, Selinium
+    - **Testing Frameworks:** Junit, Cucumber
+    - **JAVA EE Frameworks:** Spring Framework 6 (Core, Dependency Injection, Spring Data JPA, Spring Security), Jakarta EE (CDI, Faces, Weld), PrimeFaces (UI development)
+    - **Databases:** MySQL, MongoDB, HBase
+    - **Cloud:** AWS, Azure, GCP
+    - **DevOps:** Docker, Jenkins, Github Actions
+    - **Other Tools:** Intellij, Eclipse, Git, Gitlab, Putty, ServiceNow, Rally.
 
   - title: Professional Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -149,17 +149,18 @@ content:
         quote: >
           Crédit Agricole Corporate and Investment Bank (Crédit Agricole CIB, formerly Crédit Agricole Indosuez then Calyon) is Crédit Agricole's corporate and investment banking entity.
         description: | # this will include new lines to allow paragraphs
-          **Project Details**: CMT (Cash Management Transactions): Implemented an internal payment engine that handled incoming and outgoing transactions efficiently using Java 8, Spark structured streaming, Kafka, HBase and ELK stack. Delivered the project following Agile methodology.
-          
-          **Roles and Responsibilities**:
-          - Implemented an internal payment engine using **Java-8** and **Spark structured streaming** that processed over 1 million transactions per day.
-          - Developed an integration layer using **Spark structured streaming** and **Java-8** that enabled seamless communication between the payment engine and other applications.          
-          - Designed and built a data pipeline using **Kafka**, **HBase** and **Spark** that ingested, stored and analyzed transaction data in real-time.
-          - Created **Python** scripts to automate demo tool and performance report generation, reducing manual effort by 50%.
-          - Created custom source and sink connectors for **IBM MQ** using **Spark structured streaming** that improved data reliability and throughput.
-          - Developed **Jenkins pipelines** using **groovy** and **shell scripting** that facilitated continuous integration and delivery of code changes.
-          - Automated functional testing using **Cucumber framework** that ensured high-quality code delivery.
-          - Set up application logs using **ELK stack** and created dashboards for monitoring performance metrics.
+          **Project Details:** Cash Management Transactions (CMT)
+
+          Implemented a high-performance, real-time internal payment engine to orchestrate incoming and outgoing payment transactions. Engineered a resilient, event-driven architecture using **Java 8**, **Apache Spark Structured Streaming**, **Kafka**, and **HBase**. Delivered the project following **Agile methodologies** in a dynamic, cross-functional team.
+
+          **Roles and Responsibilities:**
+          - Engineered a scalable payment engine using **Java 8** and **Spark Structured Streaming** to process over **1 million transactions per day** with **sub-second latency**, directly supporting critical business operations.
+          - Designed and built a robust data pipeline with **Kafka** and **HBase** that enabled real-time ingestion, storage, and analysis of transaction data, ensuring data integrity and rapid access for downstream systems.
+          - Solved a critical integration challenge by developing **custom source and sink connectors for IBM MQ** using **Spark Structured Streaming**. This initiative improved data reliability and boosted throughput by over **40%** by eliminating a middleware component.
+          - Reduced manual effort by **50%** by creating **Python scripts** to automate demo tool execution and performance report generation, allowing the team to focus on core development.
+          - Streamlined the **CI/CD pipeline** by developing **Jenkins pipelines** with **Groovy** and **shell scripting**, automating the build, test, and deployment of code changes to production.
+          - Enhanced code quality and team efficiency by automating functional tests with the **Cucumber** framework and setting up application monitoring dashboards using the **ELK stack**, providing real-time visibility into performance and system health.
+          - Developed a versatile data layer that enabled seamless communication between the payment engine and various internal applications by translating proprietary formats into a standardized message structure.
       - layout: left
         title: Cognizant Technology Solutions
         link: https://www.cognizant.com
