@@ -51,7 +51,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  - IT professional with **12** years of experience in developing applications using **Java**, **Python** and **Big-Data technologies**.
+  - IT professional with **14** years of experience in developing applications using **Java**, **Python** and **Big-Data technologies**.
   - **Google Cloud Certified Professional Data Engineer**.
   - Extensive expertise in working with **Hadoop**, **Spark 3.x**, **Spark Structured Streaming**, **Kafka**, **Hive** and **HBase**
   - Strong knowledge of **Python programming** and **Machine learning** concepts
