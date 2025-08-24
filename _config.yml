@@ -220,7 +220,7 @@ content:
           
           **Technologies:** JavaScript, HTML, CSS, Chrome Extension API.
           
-          **GitHub:** [Link to your GitHub repository here]
+          **GitHub:** https://github.com/amazingpaddy/ai-chat-exporter
       - layout: left
         title: Interactive ChatGPT Command Line Interface (CLI)
         sub_title: 
@@ -230,7 +230,7 @@ content:
           
           **Technologies:** Python, OpenAI API, command-line interface design.
           
-          **GitHub:** [Link to your GitHub repository here]
+          **GitHub:** https://github.com/amazingpaddy/Interactive-ChatGPT-CLI
       - layout: left
         title: Machine Learning Odyssey
         sub_title: 
@@ -240,7 +240,7 @@ content:
           
           **Technologies:** Python, Scikit-learn, Pandas, NumPy, XGBoost, Jupyter Notebook.
           
-          **GitHub:** [Link to your GitHub repository here]
+          **GitHub:** https://github.com/amazingpaddy/ml-odyssey
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
