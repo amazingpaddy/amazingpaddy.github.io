@@ -83,17 +83,19 @@ content:
     layout: text # Type of content section (list/text)
     content: |
       - **Programming Languages:** Java 17, Python 3
-      - **BigData Tools:** Apache Spark, Kafka, Hive, Hadoop
+      - **BigData Frameworks:** Apache Spark, Kafka, Hive, Hadoop
       - **Machine Learning:**
         - Algorithms: XGBoost, RandomForest, Logistic Regression, SVM
-        - ML Python libraries: pandas, numpy, scikit-learn
+        - ML Python libraries: pandas, numpy, scikit-learn, langchain
       - **Automation Scripts:** Shell, Batch, Powershell, Selinium
-      - **Testing Frameworks:** Junit, Cucumber
+      - **Testing Frameworks:** Junit-5, Mockito, Cucumber
+      - **Operating Systems:** Microsoft Windows 11, Linux, MacOS
       - **JAVA EE Frameworks:** Spring Framework 6 (Core, Dependency Injection, Spring Data JPA, Spring Security), Jakarta EE (CDI, Faces, Weld), PrimeFaces (UI development)
-      - **Databases:** MySQL, MongoDB, HBase
-      - **Cloud:** AWS, Azure, GCP
-      - **DevOps:** Docker, Jenkins, Github Actions
+      - **Databases:** MySQL, PostgreSQL, MongoDB, HBase
+      - **Cloud:** AWS, Azure, GCP, Oracle Cloud
+      - **DevOps:** Docker, Jenkins, Github Actions, UrbanCode Deploy, Artifactory
       - **Other Tools:** Intellij, Eclipse, Git, Gitlab, Putty, ServiceNow, Rally.
+      - **AI Tools:** Github Copilot, Gemini Code Assist, Claude code, Ollama
 
   - title: Professional Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -205,6 +207,40 @@ content:
       - [Google Cloud Certified - Professional Data Engineer](https://www.credential.net/f1604fa8-370f-4e3e-acb0-20c6463ebc2c?key=f0e7a8bac1e57fb111633b61a4194c4b70fa9cf7e88e396472716a2a388d68bd)
       - [AWS Certified Cloud Practitioner](https://www.credly.com/badges/2cb6d504-93e8-4337-b3c9-b541ed5c4558/public_url)
       - [Microsoft Certified: Azure AI Fundamentals](https://www.credly.com/badges/5a2e8022-8d77-42e8-ab81-718a03b6d396)
+
+  - title: Personal Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: AI Chat Exporter Chrome Extension
+        sub_title: 
+        caption: 
+        description: |
+          Developed a browser extension to export full chat conversations from Gemini and ChatGPT into a clean, portable Markdown file, developed through self-guided learning and rapid prototyping.
+          
+          **Technologies:** JavaScript, HTML, CSS, Chrome Extension API.
+          
+          **GitHub:** [Link to your GitHub repository here]
+      - layout: left
+        title: Interactive ChatGPT Command Line Interface (CLI)
+        sub_title: 
+        caption: 
+        description: |
+          Created a CLI tool for an interactive conversational experience with the OpenAI API, featuring real-time response streaming.
+          
+          **Technologies:** Python, OpenAI API, command-line interface design.
+          
+          **GitHub:** [Link to your GitHub repository here]
+      - layout: left
+        title: Machine Learning Odyssey
+        sub_title: 
+        caption: 
+        description: |
+          A portfolio of hands-on Machine Learning projects, including a breast cancer classification model and a house sales price prediction model, showcasing proficiency in data analysis and model development.
+          
+          **Technologies:** Python, Scikit-learn, Pandas, NumPy, XGBoost, Jupyter Notebook.
+          
+          **GitHub:** [Link to your GitHub repository here]
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
