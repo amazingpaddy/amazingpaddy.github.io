@@ -51,13 +51,11 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  - IT professional with **14** years of experience in developing applications using **Java**, **Python** and **Big-Data technologies**.
-  - **Google Cloud Certified Professional Data Engineer**.
-  - Extensive expertise in working with **Hadoop**, **Spark 3.x**, **Spark Structured Streaming**, **Kafka**, **Hive** and **HBase**
-  - Strong knowledge of **Python programming** and **Machine learning** concepts
-  - Proficient in **UNIX commands** and **shell scripting**
-  - Excellent analytical, communication and monitoring skills
-  - Adaptable to different technologies and eager to learn new concepts quickly
+- **Senior Backend & Distributed Systems Engineer** with **14 years of experience** specializing in designing and developing highly scalable, low-latency applications within the financial and enterprise sectors.
+- **Fintech Domain Expertise:** Proven experience in orchestrating complex, event-driven systems (Payments and Regulatory Reporting), leveraging **Java** and modern big data technologies.
+- **Technical Mastery:** Extensive expertise in the **JVM ecosystem** (Java 8/17, Spring), **Apache Spark** (including **Structured Streaming**), **Kafka**, and NoSQL/Relational databases (**HBase**, PostgreSQL).
+- **Cloud & DevOps:** Proficient in designing cloud-native solutions, CI/CD automation (**Jenkins, GitHub Actions**), containerization (**Docker, Kubernetes**), and holding a **Google Cloud Certified - Professional Data Engineer** certification.
+- **Adaptable & Analytical:** Strong analytical and problem-solving skills, with a focus on writing clean, well-tested code, demonstrating continuous growth (**Python, Machine Learning, AI Tools**).
 
 content:
 #  - title: Projects # Title for the section
@@ -82,20 +80,16 @@ content:
   - title: Technical Skills # Title for the section
     layout: text # Type of content section (list/text)
     content: |
-      - **Programming Languages:** Java 17, Python 3
-      - **BigData Frameworks:** Apache Spark, Kafka, Hive, Hadoop
-      - **Machine Learning:**
-        - Algorithms: XGBoost, RandomForest, Logistic Regression, SVM
-        - ML Python libraries: pandas, numpy, scikit-learn, langchain
-      - **Automation Scripts:** Shell, Batch, Powershell, Selinium
-      - **Testing Frameworks:** Junit-5, Mockito, Cucumber
-      - **Operating Systems:** Microsoft Windows 11, Linux, MacOS
-      - **JAVA EE Frameworks:** Spring Framework 6 (Core, Dependency Injection, Spring Data JPA, Spring Security), Jakarta EE (CDI, Faces, Weld), PrimeFaces (UI development)
-      - **Databases:** MySQL, PostgreSQL, MongoDB, HBase
-      - **Cloud:** AWS, Azure, GCP, Oracle Cloud
-      - **DevOps:** Docker, Jenkins, Github Actions, UrbanCode Deploy, Artifactory
-      - **Other Tools:** Intellij, Eclipse, Git, Gitlab, Putty, ServiceNow, Rally.
-      - **AI Tools:** Github Copilot, Gemini Code Assist, Claude code, Ollama
+      | Category | Skills |
+      | :--- | :--- |
+      | **Core Languages** | Java 17, Python 3, Shell Scripting |
+      | **Distributed Systems** | Apache Spark (Structured Streaming), Kafka, Hadoop, Hive |
+      | **Backend Frameworks** | Spring Framework 6 (Core, DI, Spring Data JPA, Spring Security) |
+      | **Databases & Storage** | HBase, PostgreSQL, MySQL, MongoDB |
+      | **DevOps & CI/CD** | Docker, Kubernetes, Jenkins, GitHub Actions, Artifactory, UrbanCode Deploy |
+      | **Testing & Quality** | JUnit-5, Mockito, Cucumber |
+      | **Cloud Platforms** | AWS, Azure, GCP, Oracle Cloud (Google Cloud Professional Data Engineer) |
+      | **AI/ML** | Python Libraries (pandas, scikit-learn), Algorithms (XGBoost, SVM), AI Tools (GitHub Copilot, LangChain) |
 
   - title: Professional Experience # Title for the section
     layout: list # Type of content section (list/text)
