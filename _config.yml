@@ -80,16 +80,14 @@ content:
   - title: Technical Skills # Title for the section
     layout: text # Type of content section (list/text)
     content: |
-      | Category | Skills |
-      | :--- | :--- |
-      | **Core Languages** | Java 17, Python 3, Shell Scripting |
-      | **Distributed Systems** | Apache Spark (Structured Streaming), Kafka, Hadoop, Hive |
-      | **Backend Frameworks** | Spring Framework 6 (Core, DI, Spring Data JPA, Spring Security) |
-      | **Databases & Storage** | HBase, PostgreSQL, MySQL, MongoDB |
-      | **DevOps & CI/CD** | Docker, Kubernetes, Jenkins, GitHub Actions, Artifactory, UrbanCode Deploy |
-      | **Testing & Quality** | JUnit-5, Mockito, Cucumber |
-      | **Cloud Platforms** | AWS, Azure, GCP, Oracle Cloud (Google Cloud Professional Data Engineer) |
-      | **AI/ML** | Python Libraries (pandas, scikit-learn), Algorithms (XGBoost, SVM), AI Tools (GitHub Copilot, LangChain) |
+      - **Core Languages:** Java 17, Python 3, Shell Scripting
+      - **Distributed Systems:** Apache Spark (Structured Streaming), Kafka, Hadoop, Hive
+      - **Backend Frameworks:** Spring Framework 6 (Core, DI, Spring Data JPA, Spring Security)
+      - **Databases & Storage:** HBase, PostgreSQL, MySQL, MongoDB
+      - **DevOps & CI/CD:** Docker, Kubernetes, Jenkins, GitHub Actions, Artifactory, UrbanCode Deploy
+      - **Testing & Quality:** JUnit-5, Mockito, Cucumber
+      - **Cloud Platforms:** AWS, Azure, GCP, Oracle Cloud (Google Cloud Professional Data Engineer)
+      - **AI/ML:** Python Libraries (pandas, scikit-learn), Algorithms (XGBoost, SVM), AI Tools (GitHub Copilot, LangChain)
 
   - title: Professional Experience # Title for the section
     layout: list # Type of content section (list/text)
