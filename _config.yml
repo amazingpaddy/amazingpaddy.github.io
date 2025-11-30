@@ -52,11 +52,11 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-- **Senior Backend & Distributed Systems Engineer** with **14 years of experience** specializing in designing and developing highly scalable, low-latency applications within the financial and enterprise sectors.
-- **Fintech Domain Expertise:** Proven experience in orchestrating complex, event-driven systems (Payments and Regulatory Reporting), leveraging **Java** and modern big data technologies.
-- **Technical Mastery:** Extensive expertise in the **JVM ecosystem** (Java 8/17, Spring), **Apache Spark** (including **Structured Streaming**), **Kafka**, and NoSQL/Relational databases (**HBase**, PostgreSQL).
-- **Cloud & DevOps:** Proficient in designing cloud-native solutions, CI/CD automation (**Jenkins, GitHub Actions**), containerization (**Docker, Kubernetes**), and holding a **Google Cloud Certified - Professional Data Engineer** certification.
-- **Adaptable & Analytical:** Strong analytical and problem-solving skills, with a focus on writing clean, well-tested code, demonstrating continuous growth (**Python, Machine Learning, AI Tools**).
+  - **Senior Backend & Distributed Systems Engineer** with **14 years of experience** specializing in designing and developing highly scalable, low-latency applications within the financial and enterprise sectors.
+  - **Fintech Domain Expertise:** Proven experience in orchestrating complex, event-driven systems (Payments and Regulatory Reporting), leveraging **Java** and modern big data technologies.
+  - **Technical Mastery:** Extensive expertise in the **JVM ecosystem** (Java 8/17, Spring), **Apache Spark** (including **Structured Streaming**), **Kafka**, and NoSQL/Relational databases (**HBase**, PostgreSQL).
+  - **Cloud & DevOps:** Proficient in designing cloud-native solutions, CI/CD automation (**Jenkins, GitHub Actions**), containerization (**Docker, Kubernetes**), and holding a **Google Cloud Certified - Professional Data Engineer** certification.
+  - **Adaptable & Analytical:** Strong analytical and problem-solving skills, with a focus on writing clean, well-tested code, demonstrating continuous growth (**Python, Machine Learning, AI Tools**).
 
 content:
 #  - title: Projects # Title for the section
