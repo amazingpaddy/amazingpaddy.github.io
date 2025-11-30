@@ -3,3 +3,253 @@
 ---
 
 @import 'modern-resume-theme';
+
+// ============================================
+// Material Design Custom Overrides
+// ============================================
+
+// Material Design Color Palette
+$md-primary: #1976D2;        // Blue 700
+$md-primary-light: #42A5F5;  // Blue 400
+$md-primary-dark: #1565C0;   // Blue 800
+$md-accent: #FF5722;         // Deep Orange 500
+$md-text-primary: rgba(0, 0, 0, 0.87);
+$md-text-secondary: rgba(0, 0, 0, 0.60);
+$md-divider: rgba(0, 0, 0, 0.12);
+$md-background: #FAFAFA;     // Grey 50
+$md-surface: #FFFFFF;
+
+// Material Design Elevation Shadows
+@mixin md-elevation-2 {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+              0 3px 1px -2px rgba(0, 0, 0, 0.12),
+              0 1px 5px 0 rgba(0, 0, 0, 0.20);
+}
+
+@mixin md-elevation-4 {
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14),
+              0 1px 10px 0 rgba(0, 0, 0, 0.12),
+              0 2px 4px -1px rgba(0, 0, 0, 0.20);
+}
+
+@mixin md-elevation-8 {
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14),
+              0 3px 14px 2px rgba(0, 0, 0, 0.12),
+              0 5px 5px -3px rgba(0, 0, 0, 0.20);
+}
+
+// Material Design Typography
+body {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $md-background;
+  color: $md-text-primary;
+}
+
+// Material Design Headers
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+h1 {
+  font-size: 2.125rem;
+  line-height: 2.5rem;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+}
+
+// Material Design Cards
+.container {
+  background-color: $md-surface;
+  border-radius: 4px;
+  @include md-elevation-2;
+  transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  
+  &:hover {
+    @include md-elevation-4;
+  }
+}
+
+// Material Design Paper Effect for Content Sections
+.layout {
+  background-color: $md-surface;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  padding: 16px;
+  @include md-elevation-2;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  
+  &:hover {
+    @include md-elevation-4;
+    transform: translateY(-2px);
+  }
+}
+
+// Material Design Links
+a {
+  color: $md-primary;
+  text-decoration: none;
+  transition: color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  
+  &:hover {
+    color: $md-primary-dark;
+    text-decoration: underline;
+  }
+  
+  &:active {
+    color: $md-accent;
+  }
+}
+
+// Material Design Buttons
+.btn, button, [class*="button"] {
+  background-color: $md-primary;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  @include md-elevation-2;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  
+  &:hover {
+    background-color: $md-primary-dark;
+    @include md-elevation-4;
+  }
+  
+  &:active {
+    @include md-elevation-8;
+  }
+}
+
+// Material Design Header/Profile Section
+.profile, .header {
+  background: linear-gradient(135deg, $md-primary 0%, $md-primary-dark 100%);
+  color: white;
+  border-radius: 4px;
+  @include md-elevation-4;
+  padding: 24px;
+  margin-bottom: 24px;
+  
+  h1, h2, h3, p {
+    color: white;
+  }
+  
+  a {
+    color: rgba(255, 255, 255, 0.9);
+    
+    &:hover {
+      color: white;
+    }
+  }
+}
+
+// Material Design Profile Image
+.profile-img, [class*="profile"] img {
+  border-radius: 50%;
+  @include md-elevation-4;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  
+  &:hover {
+    @include md-elevation-8;
+    transform: scale(1.05);
+  }
+}
+
+// Material Design Dividers
+hr {
+  border: none;
+  height: 1px;
+  background-color: $md-divider;
+  margin: 16px 0;
+}
+
+// Material Design List Items
+ul, ol {
+  li {
+    padding: 8px 0;
+    color: $md-text-primary;
+    line-height: 1.6;
+  }
+}
+
+// Material Design Quote/Callout
+blockquote, .quote {
+  border-left: 4px solid $md-primary;
+  background-color: rgba(25, 118, 210, 0.05);
+  padding: 16px;
+  margin: 16px 0;
+  border-radius: 0 4px 4px 0;
+  font-style: italic;
+  color: $md-text-secondary;
+}
+
+// Material Design Chips/Tags
+mark, .tag, .chip {
+  background-color: rgba(25, 118, 210, 0.1);
+  color: $md-primary-dark;
+  border-radius: 16px;
+  padding: 4px 12px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  display: inline-block;
+  margin: 2px;
+}
+
+// Material Design Icons
+.fa, .fab, .fas, .far {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  
+  &:hover {
+    transform: scale(1.2);
+    color: $md-primary;
+  }
+}
+
+// Material Design Responsive Spacing
+.content {
+  padding: 16px;
+  
+  @media (min-width: 768px) {
+    padding: 24px;
+  }
+}
+
+// Material Design Animations
+@keyframes ripple {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+// Smooth Scroll Behavior
+html {
+  scroll-behavior: smooth;
+}
+
+// Material Design Focus States
+*:focus {
+  outline: 2px solid $md-primary;
+  outline-offset: 2px;
+}
